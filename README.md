@@ -4,7 +4,7 @@ Useful Atom Snippets for debugging with PHP
 ## How to install:
 
 - Open the Command Palette: cmd-shift-P
-- Write: Open Your Snippets and than, enter
+- Write: Open Your Snippets and then, enter
 - Paste the code:
 
 ```coffee
