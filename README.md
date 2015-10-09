@@ -1,4 +1,4 @@
-# atom-snippet-php-debug
+# Atom Snippets PHP Debug
 Useful Atom Snippets for debugging with PHP
 
 ## How to install:
