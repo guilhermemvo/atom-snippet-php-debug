@@ -37,10 +37,10 @@ Useful Atom Snippets for debugging with PHP
 
 ### Prefixes
 
-Prefix 'e': Debugging with echo;
-Prefix 'p': Debugging with print_r;
-Prefix 'v': Debugging with var_dump;
-Prefix 'd': Debugging with debug_print_backtrace;
+- Prefix 'e': Debugging with echo;
+- Prefix 'p': Debugging with print_r;
+- Prefix 'v': Debugging with var_dump;
+- Prefix 'd': Debugging with debug_print_backtrace;
 
 ### Code
 
