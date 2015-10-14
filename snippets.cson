@@ -25,7 +25,7 @@
   'Debugging with echo':
     'prefix': 'e'
     'body':
-      'echo \'<pre>\' . \'$1\' . \'<br>\'; exit(\'${2:Fim}\'); $3'
+      'echo \'<pre>\' . \'${1:teste}\' . \'<br>\'; exit(\'${2:Fim}\'); $3'
 
   'Debugging with print_r':
     'prefix': 'p'
@@ -36,3 +36,8 @@
     'prefix': 'v'
     'body':
       'echo \'<pre>\'; var_dump(${1:\'teste\'}); echo \'<br>$2\'; exit(\'${3:Fim}\'); $4'
+
+  'Debugging with debug_print_backtrace':
+    'prefix': 'd'
+    'body':
+      'echo \'<pre>$1\'; debug_print_backtrace(); echo \'<br>\'; exit(\'${2:Fim}\'); $3'

@@ -13,7 +13,7 @@ Useful Atom Snippets for debugging with PHP
   'Debugging with echo':
     'prefix': 'e'
     'body':
-      'echo \'<pre>\' . \'$1\' . \'<br>\'; exit(\'${2:Fim}\'); $3'
+      'echo \'<pre>\' . \'${1:teste}\' . \'<br>\'; exit(\'${2:Fim}\'); $3'
 
   'Debugging with print_r':
     'prefix': 'p'
@@ -24,6 +24,31 @@ Useful Atom Snippets for debugging with PHP
     'prefix': 'v'
     'body':
       'echo \'<pre>\'; var_dump(${1:\'teste\'}); echo \'<br>$2\'; exit(\'${3:Fim}\'); $4'
+
+  'Debugging with debug_print_backtrace':
+    'prefix': 'd'
+    'body':
+      'echo \'<pre>$1\'; debug_print_backtrace(); echo \'<br>\'; exit(\'${2:Fim}\'); $3'
+```
+
+## How to use:
+
+- Type a prefix and press enter or tab
+
+### Prefixes
+
+Prefix 'e': Debugging with echo;
+Prefix 'p': Debugging with print_r;
+Prefix 'v': Debugging with var_dump;
+Prefix 'd': Debugging with debug_print_backtrace;
+
+### Code
+
+```coffee
+echo '<pre>' . 'teste' . '<br>'; exit('Fim');
+echo '<pre>'; print_r('teste'); echo '<br>'; exit('Fim');
+echo '<pre>'; var_dump('teste'}); echo '<br>'; exit('Fim');
+echo '<pre>'; debug_print_backtrace(); echo '<br>'; exit('Fim');
 ```
 
 For more information about this look the [Atom Documentation](https://atom.io/docs/latest/using-atom-snippets)
