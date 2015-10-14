@@ -33,14 +33,16 @@ Useful Atom Snippets for debugging with PHP
 
 ## How to use:
 
-- Type a prefix and press enter or tab
+- Hit a prefix and press enter or tab.
 
 ### Prefixes
 
-- Prefix 'e': Debugging with echo;
-- Prefix 'p': Debugging with print_r;
-- Prefix 'v': Debugging with var_dump;
-- Prefix 'd': Debugging with debug_print_backtrace;
+#### Basic Invitation
+
+- Prefix <kbd>e</kbd>': Debugging with echo;
+- Prefix <kbd>p</kbd>': Debugging with print_r;
+- Prefix <kbd>v</kbd>': Debugging with var_dump;
+- Prefix <kbd>d</kbd>': Debugging with debug_print_backtrace;
 
 ### Code
 
