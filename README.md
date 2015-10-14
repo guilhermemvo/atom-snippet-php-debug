@@ -39,10 +39,10 @@ Useful Atom Snippets for debugging with PHP
 
 #### Basic Invitation
 
-- Prefix <kbd>E</kbd>: Debugging with echo;
-- Prefix <kbd>P</kbd>: Debugging with print_r;
-- Prefix <kbd>V</kbd>: Debugging with var_dump;
-- Prefix <kbd>D</kbd>: Debugging with debug_print_backtrace;
+- Prefix <kbd>E</kbd>for debugging with echo;
+- Prefix <kbd>P</kbd>for debugging with print_r;
+- Prefix <kbd>V</kbd>for debugging with var_dump;
+- Prefix <kbd>D</kbd>for debugging with debug_print_backtrace;
 
 ### Code
 
