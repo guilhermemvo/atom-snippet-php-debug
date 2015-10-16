@@ -7,37 +7,11 @@ Useful Atom Snippets for debugging with PHP
 - Write "Open Your Snippets" and then, enter
 - Paste the code:
 
-```coffee
-'.source.php':
-
-  'Debugging with echo':
-    'prefix': 'e'
-    'body':
-      'echo \'<pre>\' . \'${1:teste}\' . \'<br>\'; exit(\'${2:Fim}\'); $3'
-
-  'Debugging with print_r':
-    'prefix': 'p'
-    'body':
-      'echo \'<pre>\'; print_r(${1:\'teste\'}); echo \'<br>$2\'; exit(\'${3:Fim}\'); $4'
-
-  'Debugging with var_dump':
-    'prefix': 'v'
-    'body':
-      'echo \'<pre>\'; var_dump(${1:\'teste\'}); echo \'<br>$2\'; exit(\'${3:Fim}\'); $4'
-
-  'Debugging with debug_print_backtrace':
-    'prefix': 'd'
-    'body':
-      'echo \'<pre>$1\'; debug_print_backtrace(); echo \'<br>\'; exit(\'${2:Fim}\'); $3'
-```
-
 ## How to use:
 
 - Hit a prefix and press enter or tab.
 
 ### Prefixes
-
-#### Basic Invitation
 
 - Prefix <kbd>E</kbd> for debugging with ```echo```;
 - Prefix <kbd>P</kbd> for debugging with ```print_r```;
