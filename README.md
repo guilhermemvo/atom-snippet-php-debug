@@ -5,7 +5,7 @@ Useful Atom Snippets for debugging with PHP
 
 - Open the Command Palette: cmd-shift-P
 - Write "Open Your Snippets" and then, enter
-- Paste the code:
+- Paste the code contents on snippets.cson
 
 ## How to use:
 
